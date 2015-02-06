@@ -1,0 +1,20 @@
+- title: Welcome
+  path: /v1
+
+- title: API Keys
+  path: /v1/api-keys
+
+- title: SSH Keys
+  path: /v1/ssh-keys
+
+- title: Provisioning Servers
+  path: /v1/provisioning-servers
+
+- title: Creating a New Site
+  path: /v1/creating-a-new-site
+
+- title: Database Setup and Access
+  path: /v1/database-setup-and-access
+
+- title: DNS Configuration
+  path: /v1/dns-configuration

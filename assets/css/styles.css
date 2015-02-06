@@ -1,0 +1,180 @@
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #5A5A5A;
+  background-color: #ffffff;
+}
+
+h1:first-child {
+  margin-top: 0;
+}
+
+#ajaxLoading {
+  text-align: center;
+  z-index: 100;
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  width: 200px;
+  margin-left: -100px;
+  padding: 10px;
+  background: black;
+  opacity: 0.8;
+  color: white;
+  border-radius: 10px;
+  display: none;
+}
+
+#loadingOverlay {
+  background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background: black;
+  opacity: 0.5;
+  display: none;
+}
+
+.panel-title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.panel-title>button {
+  margin-top: -4px;
+}
+
+.panel h4 {
+  background: #ecf0f1;
+  padding: 15px;
+  line-height: 30px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.installable, .ssh-key {
+  margin: 5px;
+}
+
+.navbar-nav i {
+  margin-right: 5px;
+}
+
+h3.panel-title div.server-details span {
+  margin-left: 15px;
+  font-size: .7em;
+}
+
+h3.panel-title div.server-details i {
+  margin-right: 10px;
+}
+
+h3.panel-title .btn {
+  margin-top: -4px;
+}
+
+.navbar-inverse {
+  background-color: #506378;
+  border-color: #506378;
+}
+
+.panel-primary {
+  border-color: #506378;
+}
+
+.panel-primary .panel-heading {
+  background-color: #506378;
+  border-color: #506378;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #506378;
+  border-color: #48596C;
+}
+
+.btn-primary:hover {
+  color: #ffffff;
+  background-color: #5B7694;
+  border-color: #48596C;
+}
+
+#menu {
+  margin-bottom: 30px;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #F2F2F2;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+  background-color: #3c4a59;
+  color: #e6e6e6;
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+  background-color: #eee;
+  border-color: #506378;
+}
+
+.navbar-brand>img {
+  height: 24px;
+  width: 24px;
+  display: inline;
+  margin-top: -4px;
+}
+
+.nav-header:not(:first-child) {
+  margin-top: 15px;
+}
+
+.nav-list li a.active {
+  background-color: aliceblue;
+}
+
+.doc-body li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#disqus_thread {
+  margin-top: 40px;
+}
+
+footer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+
+  .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: #fff;
+  }
+
+  .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    display: none;
+  }
+
+}
+
+div.well:last-child {
+  margin-bottom: 0;
+}

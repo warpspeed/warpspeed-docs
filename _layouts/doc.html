@@ -1,0 +1,45 @@
+{% include header.html title="Docs" %}
+
+<div class="container doc-body">
+  <div class="row">
+    <div class="col-sm-12 col-md-4 col-lg-3">
+      <ul id="menu" class="nav nav-list">
+        <li><strong>MAIN MENU</strong></li>
+        {% for menuItem in site.data.menu %}
+        <li>
+          <a href="{{ menuItem.path }}/">{{ menuItem.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-sm-12 col-md-8 col-lg-9">
+
+      {{content}}
+
+      {% if page.disqus != false %}
+
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+          /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+          var disqus_shortname = 'warpspeed'; // required: replace example with your forum shortname
+
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+      {% endif %}
+        
+    </div>
+  </div>
+</div>
+
+<script>
+  $('#menu a[href="{{page.url}}"]').addClass('active');
+</script>
+
+{% include footer.html %}
