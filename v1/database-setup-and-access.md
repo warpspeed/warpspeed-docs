@@ -15,7 +15,7 @@ This section will help you configure and access your databases with WarpSpeed.
 
 ## <a name="db-credentials"></a> Default database credentials.
 
-If you selected a database installer during WarpSpeed provisioning, WarpSpeed will automatically configure your database credentials. The default username will be `warpspeed`. If you created your server through WarpSpeed.io, the database password will be emailed to you. If you used the WarpSpeed manual provisioner, the password is the one you selected during provisioning. Finally, if you used the WarpSpeed Vagrant setup, the password will be `warpspeed`.
+If you selected a database installer during WarpSpeed provisioning, WarpSpeed will automatically configure your database credentials. If you created your server through WarpSpeed.io, the username is `warpspeed` and the database password will be emailed to you. If you used the WarpSpeed Vagrant setup, both the username and password will be `vagrant`.
 
 ## <a name="db-new"></a> Creating a new database.
 
@@ -32,10 +32,10 @@ Since WarpSpeed locks down your server so that only the SSH, HTTP, and HTTPS por
 
 To illustrate this configuration, we will be using SequelPro. It is an outstanding free database client for MySQL databases. If you don't already have it, you can download it [here](http://www.sequelpro.com/).
 
-Here is an example of the configuration for connecting to a WarpSpeed production server over SSH. Note, your MySQL username and password will be `warpspeed` and the database password that you were emailed after server creation. Your SSH username and password will be `warpspeed` and the password should be left blank because it will use your SSH key.
+Here is an example of the configuration for connecting to a WarpSpeed production server over SSH. Note, your MySQL username will be `warpspeed` and the database password will be the one that was emailed to you after server creation. Your SSH username and password will be `warpspeed` and the SSH password should be left blank because it will use your SSH key.
 
 ![](/v1/img/sequel_pro_production.png)
 
-Here is an example of the configuration for connecting to the WarpSpeed Vagrant VM over SSH. Note, your MySQL username and password will be `warpspeed` and `warpspeed` respectively. Your SSH username and password will be `vagrant` and `vagrant`.
+Here is an example of the configuration for connecting to the WarpSpeed Vagrant VM over SSH. Note, your MySQL username and password will be `vagrant` and `vagrant` respectively. Your SSH username and password will also be `vagrant` and `vagrant`.
 
 ![](/v1/img/sequel_pro_vagrant.png)
