@@ -148,6 +148,11 @@ h3.panel-title .btn {
   background-color: aliceblue;
 }
 
+.nav-list .separator {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .doc-body li {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -177,4 +182,13 @@ footer {
 
 div.well:last-child {
   margin-bottom: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+video {
+  max-width: 848px;
+  max-height: 477px;
 }

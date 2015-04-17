@@ -1,20 +1,52 @@
 - title: Welcome
   path: /v1
 
+- title: Prerequisites
+
 - title: API Keys
   path: /v1/api-keys
 
 - title: SSH Keys
   path: /v1/ssh-keys
 
-- title: Provisioning Servers
+- title: Servers
+
+- title: Creating a New Server
   path: /v1/provisioning-servers
 
-- title: Creating a New Site
-  path: /v1/creating-a-new-site
+- title: DNS Configuration
+  path: /v1/dns-configuration
 
 - title: Database Setup and Access
   path: /v1/database-setup-and-access
 
-- title: DNS Configuration
-  path: /v1/dns-configuration
+- title: Firewall Management
+  path: /v1/firewall-management
+
+- title: Scheduled Tasks
+  path: /v1/scheduled-tasks
+
+- title: Sites
+
+- title: Creating a New Site
+  path: /v1/creating-a-new-site
+
+- title: Deploying your Code
+  path: /v1/deploying-your-code
+
+- title: Site Configuration
+  path: /v1/site-configuration
+
+- title: SSL Certificates
+  path: /v1/ssl-certificates
+
+- title: Development
+
+- title: WarpSpeed Vagrant
+  path: /v1/warpspeed-vagrant
+
+- title: Site Management
+  path: /v1/vagrant-site-management
+
+- title: Database Management
+  path: /v1/vagrant-database-management

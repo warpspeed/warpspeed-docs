@@ -24,7 +24,7 @@ WarpSpeed makes it easy to create a new MySQL or PostgreSQL database. Follow the
 1. SSH into your server by entering `ssh warpspeed@your-server-ip-address` in a terminal.
 1. Once you are SSH'ed in, use the `warpspeed` command to create a new database as follows. Note: In the commands that follow, replace `db_name` with the name of the database you want to create. Replace `db_username` with the new user you want to create (this is optional). Replace `password` with the password for the new user (required if db_username is specified). All of the fields should be alphanumeric with no spaces and no special characters other than underscore.
 	- MySQL: Type `warpspeed mysql:db db_name db_username password` and hit enter. If prompted, enter your database password.
-	- PostgreSQL: Type `warpspeed mysql:db db_name db_username password` and hit enter. If prompted, enter your sudo password.
+	- PostgreSQL: Type `warpspeed postgres:db db_name db_username password` and hit enter. If prompted, enter your sudo password.
 
 ## <a name="db-create"></a> Connecting to your database over SSH.
 

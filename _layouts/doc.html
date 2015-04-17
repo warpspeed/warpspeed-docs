@@ -6,9 +6,15 @@
       <ul id="menu" class="nav nav-list">
         <li><strong>MAIN MENU</strong></li>
         {% for menuItem in site.data.menu %}
-        <li>
-          <a href="{{ menuItem.path }}/">{{ menuItem.title }}</a>
-        </li>
+          {% if menuItem.path %}
+            <li>
+              <a href="{{ menuItem.path }}/">{{ menuItem.title }}</a>
+            </li>
+          {% else %}
+            <li class="separator">
+              {{ menuItem.title }}
+            </li>
+          {% endif %}
         {% endfor %}
       </ul>
     </div>
