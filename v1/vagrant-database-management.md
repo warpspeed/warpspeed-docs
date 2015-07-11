@@ -17,10 +17,8 @@ Database management and access in development is nearly identical to that for pr
 
 The default database credential for the development environment are:
 
-```
-username: vagrant
-password: vagrant
-```
+    username: vagrant
+    password: vagrant
 
 These apply for MySQL and PostgreSQL. MongoDB does not have password authenciation by default.
 
@@ -30,8 +28,8 @@ WarpSpeed makes it easy to create a new MySQL or PostgreSQL database. Follow the
 
 1. First, access your virtual machine using `vagrant ssh`.
 1. Once you are SSH'ed in, use the `warpspeed` command to create a new database as follows. Note: In the commands that follow, replace `db_name` with the name of the database you want to create. Replace `db_username` with the new user you want to create (this is optional). Replace `password` with the password for the new user (required if db_username is specified). All of the fields should be alphanumeric with no spaces and no special characters other than underscore.
-	- MySQL: Type `warpspeed mysql:db db_name db_username password` and hit enter. If prompted, enter your database password.
-	- PostgreSQL: Type `warpspeed postgres:db db_name db_username password` and hit enter. If prompted, enter your sudo password.
+    - MySQL: Type `warpspeed mysql:db db_name db_username password` and hit enter. If prompted, enter your database password.
+    - PostgreSQL: Type `warpspeed postgres:db db_name db_username password` and hit enter. If prompted, enter your sudo password.
 
 ## <a name="db-create"></a> Connecting to your database over SSH.
 

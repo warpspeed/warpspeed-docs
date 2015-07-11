@@ -1,9 +1,9 @@
 ---
 layout: doc
-title: Vagrant Site Management
+title: Site Management for Development
 ---
 
-# Vagrant Site Management
+# Site Management for Development
 
 When you are managing your production server with WarpSpeed, you get a nice web interface. For your development server, you get the WarpSpeed CLI (Command Line Interface). This guide will give you all the information you need to create and manage sites within your development virtual machine.
 
