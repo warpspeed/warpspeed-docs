@@ -15,6 +15,8 @@ WarpSpeed.io uses [API Keys](http://en.wikipedia.org/wiki/Application_programmin
 
 ## <a name="api-key-do"></a>Obtaining an API key for your Digital Ocean account.
 
+<video src="http://warpspeedio.s3.amazonaws.com/ws_api_key_do.mp4" controls preload="auto" height="auto"></video>
+
 1. If you don’t already have an account, create one [here](https://www.digitalocean.com/?refcode=e8387d479043).
 1. Login to your account and then click the “API” link in the top menu bar.
 
@@ -35,6 +37,8 @@ WarpSpeed.io uses [API Keys](http://en.wikipedia.org/wiki/Application_programmin
     ![](/v1/img/do_api_key_4.png)
 
 ## <a name="api-key-linode"></a>Obtaining an API key for your Linode account.
+
+<video src="http://warpspeedio.s3.amazonaws.com/ws_api_key_linode.mp4" controls preload="auto" height="auto"></video>
 
 1. If you don’t already have an account, create one [here](https://www.linode.com/?r=bed2c06e157de72a8f97d0c7035069800c9b342b).
 1. Login to your account and then click on the “my profile” link in the upper right hand corner. You will be prompted for your password.

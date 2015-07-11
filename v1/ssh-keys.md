@@ -9,6 +9,8 @@ When a server is provisioned with WarpSpeed, it gets configured for authenticati
 
 SSH keys come in pairs. One is a private key and that is for you to keep to yourself (don't lose it!). The other is a public key, and that one is to be shared. WarpSpeed needs to be configured with you public key so that it can place this on your servers. The topics below will help you create an SSH key pair (if you don't already have one) and add your public key to your WarpSpeed.io account.
 
+<video src="http://warpspeedio.s3.amazonaws.com/ws_ssh_key_mac.mp4" controls preload="auto" height="auto"></video>
+
 ## Topics
 
 - [Creating a new key pair.](#ssh-keys-create)

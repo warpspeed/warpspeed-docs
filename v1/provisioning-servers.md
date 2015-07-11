@@ -7,6 +7,8 @@ title: Provisioning Servers
 
 WarpSpeed makes it super easy to provision a server with just what you need. WarpSpeed currently supports Linode and Digital Ocean. If you haven't already set up your accounts and configured your <a href="/v1/api-keys">API Keys</a> within WarpSpeed, please do so before proceeding.
 
+<video src="http://warpspeedio.s3.amazonaws.com/ws_server_create.mp4" controls preload="auto" height="auto"></video>
+
 Follow these steps to provision a new server:
 
 1. Login to your WarpSpeed account [here](https://warpspeed.io/login).
