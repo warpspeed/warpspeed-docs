@@ -65,11 +65,9 @@ To access your virtual machine, open a terminal and cd to the `warpspeed-vagrant
 
 Default credentials:
 
-```
-# these are not required when using vagrant ssh, but would be required for other ssh access
-username: vagrant
-password: vagrant
-```
+	# these are not required when using vagrant ssh, but would be required for other ssh access
+	username: vagrant
+	password: vagrant
 
 ##Workflow
 

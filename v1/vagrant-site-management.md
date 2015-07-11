@@ -11,38 +11,35 @@ When you are managing your production server with WarpSpeed, you get a nice web 
 
 To use the WarpSpeed command line interface, you first need to access your virtual machine. Do so by running the following commands within a terminal in your host environment.
 
-```
-# access the warpspeed vagrant directory
-cd ~/warpspeed-vagrant
+    # access the warpspeed vagrant directory
+    cd ~/warpspeed-vagrant
 
-# start your virtual machine
-vagrant up
+    # start your virtual machine
+    vagrant up
 
-# ssh into your virtual machine
-vagrant ssh
-```
+    # ssh into your virtual machine
+    vagrant ssh
 
 Once you are in your virtual machine, type `warpspeed` and hit enter. You should see something similar to this:
 
-```
-Usage: warpspeed [COMMAND] [PARAMS] [OPTIONS]...
-  This is the WarpSpeed.io server management utility.
-  For complete information, visit: warpspeed.io.
+    Usage: warpspeed [COMMAND] [PARAMS] [OPTIONS]...
+      This is the WarpSpeed.io server management utility.
+      For complete information, visit: warpspeed.io.
 
-Available commands:
+    Available commands:
 
-  site:create [TYPE] [NAME] [OPTIONS]...
-  site:remove [NAME] [OPTIONS]...
-  site:reload [NAME]
+      site:create [TYPE] [NAME] [OPTIONS]...
+      site:remove [NAME] [OPTIONS]...
+      site:reload [NAME]
 
-  mysql:db [DBNAME] [USER] [PASS]
-  mysql:backup [DBNAME]
+      mysql:db [DBNAME] [USER] [PASS]
+      mysql:backup [DBNAME]
 
-  postgres:db [DBNAME] [USER] [PASS]
-  postgres:backup [DBNAME]
+      postgres:db [DBNAME] [USER] [PASS]
+      postgres:backup [DBNAME]
 
-  update
-```
+      update
+
 
 This shows all of the basic commands and how to use them, but we will describe each in more detail here.
 
@@ -70,15 +67,13 @@ The site should be named based on the domain that will be used to access the sit
 
 The following options are available to the `site:create` command.
 
-```
---force     # This will overwrite the current configuration for the site if it already exists.
-            # This is useful to create server configuration files for an existing site.
+    --force     # This will overwrite the current configuration for the site if it already exists.
+                # This is useful to create server configuration files for an existing site.
 
---push      # This creates a git repo for push deploy and should only be used for the production server.
+    --push      # This creates a git repo for push deploy and should only be used for the production server.
 
---wildcard  # This will allow all subdomains of this domain to be redirected to this site.
-            # For instance: test1.domain.com, test2.domain.com, ... could all point to `domain.com`.
-```
+    --wildcard  # This will allow all subdomains of this domain to be redirected to this site.
+                # For instance: test1.domain.com, test2.domain.com, ... could all point to `domain.com`.
 
 ## warpspeed site:remove [NAME] [OPTIONS]...
 
@@ -90,23 +85,19 @@ This is the name of the directory for the site within the `~/sites` folder and i
 
 ### OPTIONS
 
-```
---all       # This will remove the entire site directory. Use caution, there is no undo!
-```
+    --all       # This will remove the entire site directory. Use caution, there is no undo!
 
 ## warpspeed site:reload [NAME]
 
 This command will restart nginx and passenger or php (if necessary). This command is the equivalent of:
 
-```
-sudo service nginx reload
-touch ~/sites/site.dev/tmp/restart.txt
+    sudo service nginx reload
+    touch ~/sites/site.dev/tmp/restart.txt
 
-### OR ###
+    ### OR ###
 
-sudo service nginx reload
-sudo service php5-fpm-site.dev restart
-```
+    sudo service nginx reload
+    sudo service php5-fpm-site.dev restart
 
 ### NAME
 
@@ -116,30 +107,28 @@ This is the name of the directory for the site within the `~/sites` folder and i
 
 If you need to edit site configuration files or access logs, you can find them in the following locations:
 
-```
-# nginx configuration (main)
-/etc/nginx/nginx.conf
+    # nginx configuration (main)
+    /etc/nginx/nginx.conf
 
-# nginx configuration (per-site)
-# site env config can go here
-/etc/nginx/sites-available/site.dev
+    # nginx configuration (per-site)
+    # site env config can go here
+    /etc/nginx/sites-available/site.dev
 
-# nginx log (main)
-# passenger logs will end up here too
-/var/log/nginx/error.log
+    # nginx log (main)
+    # passenger logs will end up here too
+    /var/log/nginx/error.log
 
-# nginx log (per-site)
-/var/log/nginx/site.dev-error.log
+    # nginx log (per-site)
+    /var/log/nginx/site.dev-error.log
 
-# php.ini
-/etc/php5/fpm/php.ini
+    # php.ini
+    /etc/php5/fpm/php.ini
 
-# php fpm pool (per-site)
-# site env config can go here
-/etc/php5/fpm# cd pool.d/site.dev.conf
+    # php fpm pool (per-site)
+    # site env config can go here
+    /etc/php5/fpm# cd pool.d/site.dev.conf
 
-# php log (per-site)
-/var/log/php/php-fpm-site.dev.log
-```
+    # php log (per-site)
+    /var/log/php/php-fpm-site.dev.log
 
 Many of these files need elevated permission for access or editing. You can use `sudo` for individual commands or `sudo -i` to become the root user (use caution).

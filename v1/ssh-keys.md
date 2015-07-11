@@ -39,9 +39,7 @@ SSH keys come in pairs. One is a private key and that is for you to keep to your
 
 Copying your SSH public key to your clipboard in OSX can be done by running the following command in your terminal:
 
-```
-pbcopy < ~/.ssh/id_rsa.pub
-```
+	pbcopy < ~/.ssh/id_rsa.pub
 
 ## <a name="ssh-keys-warpspeed"></a>Adding an SSH public key to WarpSpeed.
 
