@@ -63,6 +63,14 @@ If you are using the NFS based Vagrantfile (Mac or Linux), you will need to ente
 
 To access your virtual machine, open a terminal and cd to the `warpspeed-vagrant` directory. Next, run the `vagrant ssh` command. Your virtual machine will need to be running for this to work. It you receive a message that says it isn't running, use the `vagrant up` command to start the virtual machine.
 
+Default credentials:
+
+```
+# these are not required when using vagrant ssh, but would be required for other ssh access
+username: vagrant
+password: vagrant
+```
+
 ##Workflow
 
 Editing of your web app and version control tasks should all take place in your host environment. Your files should be stored in your `~/Sites` directory. Editing of web configuration and creation of databases should happen inside your virtual machine. Your web application files can be found in the `~/sites` directory inside your virtual machine.
