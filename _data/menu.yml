@@ -14,9 +14,6 @@
 - title: Creating a New Server
   path: /v1/provisioning-servers
 
-- title: DNS Configuration
-  path: /v1/dns-configuration
-
 - title: Database Setup and Access
   path: /v1/database-setup-and-access
 
@@ -36,6 +33,9 @@
 
 - title: Site Configuration
   path: /v1/site-configuration
+
+- title: DNS Configuration
+  path: /v1/dns-configuration
 
 - title: SSL Certificates
   path: /v1/ssl-certificates
