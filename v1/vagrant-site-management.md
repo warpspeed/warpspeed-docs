@@ -75,6 +75,10 @@ The following options are available to the `site:create` command.
     --wildcard  # This will allow all subdomains of this domain to be redirected to this site.
                 # For instance: test1.domain.com, test2.domain.com, ... could all point to `domain.com`.
 
+### EXAMPLE
+
+    warpspeed site:create awesome.dev
+
 ## warpspeed site:remove [NAME] [OPTIONS]...
 
 This command will remove the configuration for a site, and optionally remove all the site files as well.
@@ -86,6 +90,10 @@ This is the name of the directory for the site within the `~/sites` folder and i
 ### OPTIONS
 
     --all       # This will remove the entire site directory. Use caution, there is no undo!
+
+### EXAMPLE
+
+    warpspeed site:remove awesome.dev
 
 ## warpspeed site:reload [NAME]
 
@@ -102,6 +110,27 @@ This command will restart nginx and passenger or php (if necessary). This comman
 ### NAME
 
 This is the name of the directory for the site within the `~/sites` folder and is the same as the name you specified in the `site:create` command.
+
+### EXAMPLE
+
+    warpspeed site:reload awesome.dev
+
+## DNS for Development
+
+Since we are using domains with `.dev` endings, DNS will not properly resolve these names. All we really need though is for our host environment to redirect our `.dev` domains to our virtual machine. We can do that by modifying our `hosts` file as follows:
+
+- Mac Users
+    1. Open a termial window.
+    1. Type `sudo nano /etc/hosts`
+    1. Add an entry that looks like this: `192.168.88.10  awesome.dev`. There should only be one entry per line. Make sure you replace the example domain your actual site.
+    1. Save and close the file.
+
+- Windows Users
+    1. Open the following file in Notepad with administration privledges: `c:\Windows\System32\Drivers\etc\hosts`.
+    1. Add an entry that looks like this: `192.168.88.10  awesome.dev`. There should only be one entry per line. Make sure you replace the example domain your actual site.
+    1. Save and close the file.
+
+The changes will take effect immediately, and you should now be able to browse to your `.dev` domain and see the result in your browser.
 
 ## Site Configuration Files and Logs
 
