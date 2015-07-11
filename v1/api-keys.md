@@ -16,7 +16,7 @@ WarpSpeed.io uses [API Keys](http://en.wikipedia.org/wiki/Application_programmin
 ## <a name="api-key-do"></a>Obtaining an API key for your Digital Ocean account.
 
 1. If you don’t already have an account, create one [here](https://www.digitalocean.com/?refcode=e8387d479043).
-1. Login to your account and then click the “Apps & API” link near the bottom of the left menu bar.
+1. Login to your account and then click the “API” link in the top menu bar.
 
     ![](/v1/img/do_api_key_1.png)
 
