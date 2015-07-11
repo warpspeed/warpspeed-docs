@@ -21,25 +21,25 @@ WarpSpeed utilizes Ubuntu 14.04 x64 and a 64 bit processor with hardware acceler
 
 VirtualBox is a cross-platform virtualization application. It's free and easy to use, and you can download it here:
 
-https://www.virtualbox.org/wiki/Downloads.
+[https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 
 ###Vagrant
 
 Vagrant is a tool that makes creating virtual environments quick and easy. Download Vagrant here:
 
-https://www.vagrantup.com/downloads.html.
+[https://www.vagrantup.com/downloads.html](https://www.vagrantup.com/downloads.html)
 
 ###Git
 
 Git is an outstanding and popular version control system. Download Git here:
 
-https://git-scm.com/downloads
+[https://git-scm.com/downloads](https://git-scm.com/downloads)
 
 ##Downloading the WarpSpeed Vagrantfile
 
 Once you have finished installing the prerequisites, download the WarpSpeed Vagrant project by accessing the link below and selecting "Download Zip" in the right menu.
 
-https://github.com/warpspeed/warpspeed-vagrant
+[https://github.com/warpspeed/warpspeed-vagrant](https://github.com/warpspeed/warpspeed-vagrant)
 
 Extract the downloaded zip file to an easy to access location, like your home directory, and rename the extracted folder to `warpspeed-vagrant`.
 
