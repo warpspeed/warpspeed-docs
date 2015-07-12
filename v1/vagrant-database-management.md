@@ -1,9 +1,9 @@
 ---
 layout: doc
-title: Database Mangement for Development
+title: Database Management for Development
 ---
 
-# Database Mangement for Development
+# Database Management for Development
 
 Database management and access in development is nearly identical to that for production. You can create databases using the `warpspeed` command or via a db client. Additionally, can only access the database from your host machine via ssh.
 
