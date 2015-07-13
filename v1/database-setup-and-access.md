@@ -7,6 +7,8 @@ title: Database Setup and Access
 
 This section will help you configure and access your databases with WarpSpeed.
 
+<video src="http://warpspeedio.s3.amazonaws.com/ws_db_create_connect.mp4" controls preload="auto" height="auto"></video>
+
 ## Topics
 
 - [Default database credentials.](#db-credentials)
