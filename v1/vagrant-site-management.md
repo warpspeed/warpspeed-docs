@@ -77,7 +77,7 @@ The following options are available to the `site:create` command.
 
 ### EXAMPLE
 
-    warpspeed site:create awesome.dev
+    warpspeed site:create html awesome.dev
 
 ## warpspeed site:remove [NAME] [OPTIONS]...
 
