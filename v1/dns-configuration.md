@@ -5,7 +5,7 @@ title: DNS Configuration
 
 # DNS Configuration
 
-DNS is an acronmy that stands for [Domain Name System](http://en.wikipedia.org/wiki/Domain_Name_System). DNS provides a way to map computer addresses like 123.123.123.123 to something we can remember like warpspeed.io. When you configure a new server with WarpSpeed and begin setting up your sites, you will need to purchase a domain name and set up the DNS entries to point to your new server's address.
+DNS is an acronym that stands for [Domain Name System](http://en.wikipedia.org/wiki/Domain_Name_System). DNS provides a way to map computer addresses like 123.123.123.123 to something we can remember like warpspeed.io. When you configure a new server with WarpSpeed and begin setting up your sites, you will need to purchase a domain name and set up the DNS entries to point to your new server's address.
 
 ## Topics
 
@@ -30,19 +30,19 @@ Follow these guides:
 
 ## <a name="testing"></a>Testing before DNS propagation.
 
-Once DNS is configured, it sometimes takes up to 24 hours update and take effect. In the meanwhile, you can access your site by name if you configure an entry in your "hosts" file. The hosts file is a special file that your computer looks at before it goes to look up names in DNS.
+Once DNS is configured, it sometimes takes up to 24 hours to update and take effect. In the meanwhile, you can access your site by name if you configure an entry in your "hosts" file. The hosts file is a special file that your computer looks at before it goes to look up names in DNS.
 
 Follow the instructions below to edit your hosts file:
 
 - Mac Users
-	1. Open a termial window.
+	1. Open a terminal window.
 	1. Type `sudo nano /etc/hosts`
 	1. Add an entry that looks like this: `123.123.123.123  domain.com`. There should only be one entry per line. Make sure you replace the example address and domain with the actual values. The address value should be the address of your WarpSpeed server.
 	1. Save and close the file. You will need to provide your account password.
 
 - Windows Users
 	1. Open the following file in Notepad with administration privledges: `c:\Windows\System32\Drivers\etc\hosts`.
-	1. Add an entry that looks like this: `123.123.123.123  domainn.com`. There should only be one entry per line. Make sure you replace the example address and domain with the actual values. The address value should be the address of your WarpSpeed server.
+	1. Add an entry that looks like this: `123.123.123.123  domain.com`. There should only be one entry per line. Make sure you replace the example address and domain with the actual values. The address value should be the address of your WarpSpeed server.
 	1. Save and close the file.
 
 Using the process above, you can even add addresses you do not own or addresses that are just for testing such as `domain.dev`. Keep in mind that the addresses you enter will only work on your computer. Also, don't forget to remove hosts entries for valid domains after DNS has propogated so that you know your site is actually working properly.

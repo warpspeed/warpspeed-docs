@@ -7,7 +7,7 @@ title: SSH Keys
 
 When a server is provisioned with WarpSpeed, it gets configured for authentication using SSH keys. Password authentication for SSH gets disabled. This is considered best-practice and it helps keep your server secure.
 
-SSH keys come in pairs. One is a private key and that is for you to keep to yourself (don't lose it!). The other is a public key, and that one is to be shared. WarpSpeed needs to be configured with you public key so that it can place this on your servers. The topics below will help you create an SSH key pair (if you don't already have one) and add your public key to your WarpSpeed.io account.
+SSH keys come in pairs. One is a private key and that is for you to keep to yourself (don't lose it!). The other is a public key, and that one is to be shared. WarpSpeed needs to be configured with your public key so that it can place this on your servers. The topics below will help you create an SSH key pair (if you don't already have one) and add your public key to your WarpSpeed.io account.
 
 <video src="http://warpspeedio.s3.amazonaws.com/ws_ssh_key_mac.mp4" controls preload="auto" height="auto"></video>
 

@@ -22,8 +22,8 @@ To enable push deploy for your site, perform the following steps:
 1. Login to your WarpSpeed account [here](https://warpspeed.io/login).
 1. Access your "My Servers" dashboard and click on the "Manage" button next to the server your site is on.
 1. Access your site details by clicking on the "Manage" button next to the site you want to deploy code to.
-1. If you haven't yet you should have an option to "Activate Push Deploy". Click on the button now.
-1. You should see a success message along with some instructions on how to use push deployment. Copy the "git remote add ..." command that is give to you.
+1. Click on the "Activate Push Deploy" button. You should see a success message along with some instructions on how to use push deployment.
+1. Copy the "git remote add ..." command that is give to you after push deploy activation.
 1. Open your terminal and browse to your project directory, then paste the command to add the new git remote and hit enter. You have now created a git remote that will allow you to push code to the site configured on your server.
 1. To push your code, run "git push warpspeed master" from your project directory in your terminal.
 

@@ -10,8 +10,8 @@ Database management and access in development is nearly identical to that for pr
 ## Topics
 
 - [Default database credentials.](#db-credentials)
-- [Creating a new database.](#db-create)
-- [Connecting to your database over SSH](#api-key-do)
+- [Creating a new database.](#db-new)
+- [Connecting to your database over SSH](#db-connect)
 
 ## <a name="db-credentials"></a> Default database credentials.
 
@@ -31,7 +31,7 @@ WarpSpeed makes it easy to create a new MySQL or PostgreSQL database. Follow the
     - MySQL: Type `warpspeed mysql:db db_name db_username password` and hit enter. If prompted, enter your database password.
     - PostgreSQL: Type `warpspeed postgres:db db_name db_username password` and hit enter. If prompted, enter your sudo password.
 
-## <a name="db-create"></a> Connecting to your database over SSH.
+## <a name="db-connect"></a> Connecting to your database over SSH.
 
 To access your database via an app on your host machine, you will need to use an SSH connection. This is so that the developemnt environment mimics the production environment as closely as possible.
 

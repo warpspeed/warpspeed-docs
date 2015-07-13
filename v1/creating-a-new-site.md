@@ -10,7 +10,7 @@ Follow the instructions below to create a new site on one of your WarpSpeed serv
 <video src="http://warpspeedio.s3.amazonaws.com/ws_site_create.mp4" controls preload="auto" height="auto"></video>
 
 1. Login to your WarpSpeed account [here](https://warpspeed.io/login).
-1. Access your "My Servers" dashboard and click on the "Manage" button next to the server you want to create the site on. You will be brought to your servers's sites page and you will see something like this:
+1. Access your "My Servers" dashboard and click on the "Manage" button next to the server you want to create the site on. You will be brought to your server's sites page and you will see something like this:
 
 	![](/v1/img/create_site.png)
 

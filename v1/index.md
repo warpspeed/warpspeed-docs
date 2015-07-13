@@ -18,7 +18,7 @@ WarpSpeed is a server management tool that makes it easy to provision new server
 
 ### What Programming Languages are Supported?
 
-Warpspeed supports the following:
+WarpSpeed supports the following:
 
 1. Static HTML
 1. JavaScript via NodeJS
@@ -32,11 +32,11 @@ One of the great things about WarpSpeed is that you can use all of these differe
 
 WarpSpeed is a bring-your-own-host server management tool. Currently, [Digital Ocean](https://www.digitalocean.com/?refcode=e8387d479043) or [Linode](https://www.linode.com/?r=bed2c06e157de72a8f97d0c7035069800c9b342b) are supported.
 
-All of your hosting fees are paid directly to your server host. WarpSpeed just makes it easy to manage the provisioning of servers, the creation of sites, and the deployment of your code. All WarpSpeed servers start out with base Ubuntu 14.04 install, as provider by your host, and then the WarpSpeed provisioning scripts are run on the base image.
+All of your hosting fees are paid directly to your server host. WarpSpeed just makes it easy to manage the provisioning of servers, the creation of sites, and the deployment of your code. All WarpSpeed servers start out with base Ubuntu 14.04 install, as provided by your host, and then the WarpSpeed provisioning scripts are run on the base image.
 
 ### Why don't I use the pre-configured images my host provides?
 
-First of all, know that it is in your hosts best interest for you to have one server per site you deploy. You what a ghost blog, use a new image. Want to run wordpress, use a new image. What to host your ruby project, yet another server. This is seriously a total waste. Shared hosting providers put hundreds of sites on a server that looks much like your VPS. Also, think about some of these things...
+First of all, know that it is in your hosts best interest for you to have one server per site you deploy. You want a ghost blog, use a new image. Want to run wordpress, use a new image. Want to host your ruby project, yet another server. This is seriously a total waste. Shared hosting providers put hundreds of sites on a server that looks much like your VPS. Also, think about some of these things...
 
 1. Do you know the details of how the image was configured? Is it secure? Do you know that is wasn't created by an intern? WarpSpeed provides complete visibility via its open source scripts. Years of work and studying of best practices have gone into the WarpSpeed scripts.
 1. Do you develop in more than one language? Good luck finding an image that will allow you to host different technologies together.
@@ -48,7 +48,7 @@ Any software developer that is hosting personal or small business websites in HT
 
 ### Who shouldn't use WarpSpeed?
 
-WarpSpeed certainly isn't a fit for all deployment scenarios. If you are developing a site that is expecting huge amounts of traffic, you need to scale big fast, or you have 99.99% uptime requirements then WarpSpeed is not the right choice. You will likely need load balancers, many redundant servers, elastic cloud resources, etc. WarpSpeed simply isn't designed to handle these types of sites, and in our calculations, these cases account for less than 20% deployment scenarios. However, if you have a small to medium site that you would like to grow into something great, WarpSpeed can be a great start that will help you keep more money in your bank account.
+WarpSpeed certainly isn't a fit for all deployment scenarios. If you are developing a site that is expecting huge amounts of traffic, you need to scale quickly, or you have 99.99% uptime requirements then WarpSpeed is not the right choice. You will likely need load balancers, many redundant servers, elastic cloud resources, etc. WarpSpeed simply isn't designed to handle these types of sites, and in our calculations, these cases account for less than 20% deployment scenarios. However, if you have a small to medium site that you would like to grow into something great, WarpSpeed can be a great start that will help you keep more money in your bank account.
 
 ### How is my Server being configured?
 

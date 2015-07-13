@@ -5,7 +5,7 @@ title: Firewall Management
 
 # Firewall Management
 
-By default, WarpSpeed sets up a restrictive firewall to keep your server secure. Inbound traffic is limited to the follow:
+By default, WarpSpeed sets up a restrictive firewall to keep your server secure. Inbound traffic is limited to the ports that follow:
 
 - 22 for SSH
 - 80  for HTTP
@@ -33,4 +33,4 @@ To add new rules, follow these steps:
 1. Select a nickname for the rule. Generally, this should be the service you are allowing.
 1. Enter the port number you want to allow.
 1. Optionally, enter the IP address you want to restrict this rule to.
-1. Verify you inputs and then click "Add Firewall Rules".
+1. Verify your inputs and then click "Add Firewall Rules".

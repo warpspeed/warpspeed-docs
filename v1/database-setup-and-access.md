@@ -12,8 +12,8 @@ This section will help you configure and access your databases with WarpSpeed.
 ## Topics
 
 - [Default database credentials.](#db-credentials)
-- [Creating a new database.](#db-create)
-- [Connecting to your database over SSH](#api-key-do)
+- [Creating a new database.](#db-new)
+- [Connecting to your database over SSH](#db-connect)
 
 ## <a name="db-credentials"></a> Default database credentials.
 
@@ -28,7 +28,7 @@ WarpSpeed makes it easy to create a new MySQL or PostgreSQL database. Follow the
 	- MySQL: Type `warpspeed mysql:db db_name db_username password` and hit enter. If prompted, enter your database password.
 	- PostgreSQL: Type `warpspeed postgres:db db_name db_username password` and hit enter. If prompted, enter your sudo password.
 
-## <a name="db-create"></a> Connecting to your database over SSH.
+## <a name="db-connect"></a> Connecting to your database over SSH.
 
 Since WarpSpeed locks down your server so that only the SSH, HTTP, and HTTPS ports are open, you will not be able to access your database directly from outside the server. However, you can use SSH tunneling through most database access tools to connect to your database.
 
