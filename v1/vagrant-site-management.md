@@ -45,7 +45,7 @@ This shows all of the basic commands and how to use them, but we will describe e
 
 ## warpspeed site:create [TYPE] [NAME] [OPTIONS]...
 
-This command will create a site template along with all of the necessary server configuration. The directory for the site's files will be created in the `~/Sites` directory, which will be mirrored to your virtual machines `~/sites` directory.
+This command will create a site template along with all of the necessary server configuration. The directory for the site's files will be created in the `~/Sites` directory, which will be mirrored to your virtual machine's `~/sites` directory.
 
 ### TYPE
 
@@ -120,14 +120,14 @@ This is the name of the directory for the site within the `~/sites` folder and i
 Since we are using domains with `.dev` endings, DNS will not properly resolve these names. All we really need though is for our host environment to redirect our `.dev` domains to our virtual machine. We can do that by modifying our `hosts` file as follows:
 
 - Mac Users
-    1. Open a termial window.
+    1. Open a terminal window.
     1. Type `sudo nano /etc/hosts`
-    1. Add an entry that looks like this: `192.168.88.10  awesome.dev`. There should only be one entry per line. Make sure you replace the example domain your actual site.
+    1. Add an entry that looks like this: `192.168.88.10  awesome.dev`. There should only be one entry per line. Make sure you replace the example domain with your actual site.
     1. Save and close the file.
 
 - Windows Users
-    1. Open the following file in Notepad with administration privledges: `c:\Windows\System32\Drivers\etc\hosts`.
-    1. Add an entry that looks like this: `192.168.88.10  awesome.dev`. There should only be one entry per line. Make sure you replace the example domain your actual site.
+    1. Open the following file in Notepad with administration privileges: `c:\Windows\System32\Drivers\etc\hosts`.
+    1. Add an entry that looks like this: `192.168.88.10  awesome.dev`. There should only be one entry per line. Make sure you replace the example domain with your actual site.
     1. Save and close the file.
 
 The changes will take effect immediately, and you should now be able to browse to your `.dev` domain and see the result in your browser.

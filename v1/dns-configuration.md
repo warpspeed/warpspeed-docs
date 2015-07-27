@@ -41,7 +41,7 @@ Follow the instructions below to edit your hosts file:
 	1. Save and close the file. You will need to provide your account password.
 
 - Windows Users
-	1. Open the following file in Notepad with administration privledges: `c:\Windows\System32\Drivers\etc\hosts`.
+	1. Open the following file in Notepad with administration privileges: `c:\Windows\System32\Drivers\etc\hosts`.
 	1. Add an entry that looks like this: `123.123.123.123  domain.com`. There should only be one entry per line. Make sure you replace the example address and domain with the actual values. The address value should be the address of your WarpSpeed server.
 	1. Save and close the file.
 
