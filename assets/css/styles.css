@@ -191,4 +191,5 @@ img {
 video {
   max-width: 848px;
   max-height: 477px;
+  margin: 20px auto;
 }

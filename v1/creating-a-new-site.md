@@ -15,6 +15,6 @@ Follow the instructions below to create a new site on one of your WarpSpeed serv
 	![](/v1/img/create_site.png)
 
 1. Enter the domain name you plan to use with your site. Do not include the "www". If you are hosting just a single subdomain, you can enter that here. Ex: "app.myawesomedomain.com".
-1. Select a site type. This will affect how the server gets configured so it is important that this matches the technology your site uses. The options are: HTML, Node JS, PHP, Python, and Ruby.
-1. Select any additional options. Currently, you have a choice of "Allow wildcard subdmomains". This means that if you enter "myawesomedomain.com" as your domain name, any subdomain such as "sub1.myawesomedomain.com" or "sub2.myawesomedomain.com" will be served by this site.
+1. Select a site type. This will affect how the server gets configured so it is important that this matches the technology your site uses. The options are: HTML, Node, PHP, Python, and Ruby.
+1. Select any additional options. Currently, you have a choice of "Allow wildcard subdomains". This means that if you enter "myawesomedomain.com" as your domain name, any subdomain such as "sub1.myawesomedomain.com" or "sub2.myawesomedomain.com" will be served by this site.
 1. Verify your inputs and click the "Add Site" button. The site will be created immediately and will then appear under the "Configured Sites" section.
