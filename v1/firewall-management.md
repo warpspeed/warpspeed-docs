@@ -29,7 +29,7 @@ To manage existing rules for your server's firewall follow these steps:
 
 To add new rules, follow these steps:
 
-1. Acecss the "Firewall Rules" tab of your server management page as described above.
+1. Access the "Firewall Rules" tab of your server management page as described above.
 1. Select a nickname for the rule. Generally, this should be the service you are allowing.
 1. Enter the port number you want to allow.
 1. Optionally, enter the IP address you want to restrict this rule to.

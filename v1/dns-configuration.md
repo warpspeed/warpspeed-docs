@@ -45,4 +45,4 @@ Follow the instructions below to edit your hosts file:
 	1. Add an entry that looks like this: `123.123.123.123  domain.com`. There should only be one entry per line. Make sure you replace the example address and domain with the actual values. The address value should be the address of your WarpSpeed server.
 	1. Save and close the file.
 
-Using the process above, you can even add addresses you do not own or addresses that are just for testing such as `domain.dev`. Keep in mind that the addresses you enter will only work on your computer. Also, don't forget to remove hosts entries for valid domains after DNS has propogated so that you know your site is actually working properly.
+Using the process above, you can even add addresses you do not own or addresses that are just for testing such as `domain.dev`. Keep in mind that the addresses you enter will only work on your computer. Also, don't forget to remove hosts entries for valid domains after DNS has propagated so that you know your site is actually working properly.
